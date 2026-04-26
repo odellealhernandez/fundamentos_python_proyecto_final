@@ -1,0 +1,42 @@
+============================================================
+🚀 INICIANDO PROCESO ETL EXPO MOVIL
+🕒 Fecha y Hora de Inicio: 2026-04-26 15:01:32
+⚙️ MODO CIERRE ACTIVADO: False
+============================================================
+
+➡️ PASO 1: Buscando y convirtiendo archivos .xls a .xlsx...
+   No se encontraron archivos .xls para convertir. ¡Todo en orden!
+
+➡️ PASOS 2 al 5: Leyendo, tipando y renombrando Dataframes...
+   Procesando: data/fg_express.xlsx
+   Procesando: data/he_bpm_prend.xlsx
+   Procesando: data/he_bpm_leas.xlsx
+   Procesando: data/ultm_bpm.xlsx
+
+➡️ PASO 6: Consolidando (append) y aplicando limpiezas base...
+   Total de registros consolidados: 3341
+
+➡️ PASO 7: Aplicando Reglas de Negocio (Estados, Prioridades y Validaciones)...
+   Eliminando duplicados de Identificación manteniendo la prioridad más alta (1=Aprobado)...
+   Registros únicos después de limpiar duplicados: 3330
+   > Tasa de aprobación calculada: 45.09%
+   > Se redistribuirán 216 condicionados a APROBADO y 262 a RECHAZADO.
+   > Diccionario de agencias cargado desde Excel (49 mapeos).
+   Generando validaciones de Montos y Monedas...
+
+➡️ PASO 8: Ordenando columnas finales...
+
+➡️ PASO 9: Exportando archivos a Excel en carpetas correspondientes...
+   Generando reporte exclusivo de 'APROBADO - VERDE EN FIRME'...
+   ✅ Archivo de Verdes en Firme generado en output y logs (428 registros)
+   Generando reporte consolidado principal...
+   ✅ Archivo Principal generado en output y logs (3330 registros)
+
+➡️ PASO 10: Generando reporte resumen diario...
+   ✅ Archivo Resumen generado en output y logs
+
+============================================================
+🏁 PROCESO FINALIZADO
+🕒 Fecha y Hora de Fin: 2026-04-26 15:01:37
+⏳ Tiempo de duración: 4.80 segundos
+============================================================

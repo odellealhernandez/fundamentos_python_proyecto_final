@@ -1,0 +1,26 @@
+{
+    "ES_CIERRE": false,
+    "NOMBRES_ARCHIVOS_SALIDA": {
+        "PRINCIPAL": "Rep_Preliminar",
+        "LOG": "Rep_Preliminar_log",
+        "VERDES_FIRME": "Rep_Verde_En_Firme",
+        "RESUMEN": "Rep_Resumen_Diario"
+    },
+    "TC_CRCUSD": 475.00,
+    "PRIORIDADES_ESTADO": {
+        "APROBADO": 1,
+        "CONDICIONADO": 2,
+        "RECHAZADO": 3,
+        "EN PROCESO": 4
+    },
+    "LIMITES_VALIDACION_MONTOS": {
+        "CRC": {
+            "MINIMO": 3000000,
+            "MAXIMO": 60000000
+        },
+        "USD": {
+            "MINIMO": 6000,
+            "MAXIMO": 150000
+        }
+    }
+}
