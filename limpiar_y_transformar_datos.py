@@ -21,7 +21,9 @@ def limpiar_y_transformar_datos(df, parametros, tc_crcusd, log_print):
 
     # Homologación de estados
     dicc_estados = {
-        "APROBADO - VERDE EN FIRME": "APROBADO", "APROBADO": "APROBADO", "APROBAR": "APROBADO",
+        "APROBADO - VERDE EN FIRME": "APROBADO", 
+        "APROBADO": "APROBADO",
+        "APROBAR": "APROBADO",
         "VB EJECUTIVO": "APROBADO", "EN CAMBIOS CARATULA": "APROBADO", "CAMBIOS NO PROCEDEN": "APROBADO",
         "EN CAMBIOS": "APROBADO", "SEGUROS": "APROBADO", "RECOMIENDA": "APROBADO",
         "CONDICIONADO": "CONDICIONADO", "CONDICIONADO PERSONA EXTRANJERA": "CONDICIONADO",
