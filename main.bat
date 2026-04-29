@@ -10,7 +10,7 @@ cd /d "%~dp0"
 
 :: 2. Ejecutar el script de Python
 :: Si usas un entorno virtual, cambia 'python' por la ruta al python.exe del venv
-python proceso_etl.py
+python main.py
 
 echo ==========================================
 echo Proceso finalizado.
